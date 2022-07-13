@@ -1,0 +1,51 @@
+.error-404{
+    padding: 40px 20px;
+
+    .page-header{
+        .page-title{
+            font-family: $proxima-regular;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    }
+
+    .imgnotfount{
+        margin-bottom: 40px;
+    }
+
+    .page-content{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+    .error-404{
+        padding: get-vw(80px) get-vw(160px);
+    
+        .page-header{
+            .page-title{
+                margin-bottom: get-vw(80px);
+                font-size: get-vw(48px);
+            }
+        }
+    
+        .imgnotfount{
+            max-width: get-vw(1200px);
+            margin: 0 auto get-vw(80px);
+        }
+    
+        .page-content{
+            text-align: center;
+            font-size: get-vw(24px);
+        }
+    }
+}

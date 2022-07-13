@@ -1,0 +1,8 @@
+@function get-vw($target){ 
+	$vw-context: (1920*.01) * 1px;
+	@return ($target/$vw-context) * 1vw;
+}
+
+@function letter-spacing($size,$spacing){ 
+	@return ($size / 1000 * $spacing) * 1px;
+}
